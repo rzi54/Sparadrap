@@ -1307,7 +1307,7 @@ public class App extends JFrame {
 			} else {
 
 				System.out.println(
-						DateGestion.getTimeForConsole() + "Une mauvaise saisie a été entrée par l'utilisateur.");
+						DateGestion.getTimeForConsole() + "Un fichier vital est manquant.");
 
 				if (ERROR_SOUND != null) {
 					ERROR_SOUND.run();
